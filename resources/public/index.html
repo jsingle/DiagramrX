@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Diagramr-EX</title>
+
+    <link rel="stylesheet" type="text/css" href="css/diagramr.css"/>
+    <script type="text/javascript" src="js/raphael.js"></script>
+    <script type="text/javascript" src="js/g.raphael.js"></script>
+    <script type="text/javascript" src="js/g.line.js"></script>
+    <script type="text/javascript" src="js/raphael-ext.js"></script>
+    <script type="text/javascript" src="js/oops.js"></script>
+    <script type="text/javascript" src="js/beam.js"></script>
+    <script type="text/javascript" src="js/graphics.js"></script>
+		<script type="text/javascript" src="js/interface.js"></script>
+		<script type="text/javascript" src="js/xsect.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <h2>Diagramr-EX</h2>
+				<h3>A Web-based Automatic Shear Force, Bending Moment, 
+					and Deflection Diagrammer</h3>
+      </div>
+			<div id="interface">
+				<div id="menu">
+					<input type="button"
+					value="Clear"
+					style="float: left;
+					margin-top: .3em;
+					margin-left: 1em;
+					background: white"
+					onclick="location.search = '';"
+					value="Clear"/>
+					<a href="http://www.sccs.swarthmore.edu/users/12/aburka1/diagramr/"
+						style="float: left;
+						margin-top: .3em;
+						margin-left: 15%;
+						color: Thistle;">
+						Original Diagramr by Alex Burka</a>
+					<input type="button"
+					value="Print"
+					onclick="print(); return false;"
+					style="float: right;
+					margin-top: .2em;
+					margin-right: 1em;
+                        background: white"/>
+					<a href="usermanual.html"
+						style="float: right;
+						margin-top: .3em;
+						margin-right: 15%;
+						color: Thistle;">
+						Diagramr-EX User Guide</a>
+      </div>
+      <div id="io">
+        <div id="input"></div>
+        <div id="output"></div>
+      </div>
+    </div>
+  </body>
+</html>
