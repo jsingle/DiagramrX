@@ -1,5 +1,9 @@
 Jordan Singleton
 
 This is a JavaScript based web application that plots diagrams and information about beams under transverse loading.
-This was a project for the E59 course at Swarthmore College.  It is based on Alex Burka's project 'Diagramr'
-Please see the usermanual for usage information
+
+This was a project for the E59 course at Swarthmore College.  
+
+It is based on Alex Burka's project 'Diagramr'
+
+The application opens with index.html, please see usermanual.html for usage information
